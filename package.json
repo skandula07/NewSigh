@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/skandula07/NewSigh.git"
   },
-  "author": "me",
+  "author": "Me",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/skandula07/NewSigh/issues"
@@ -19,8 +19,11 @@
   "homepage": "https://github.com/skandula07/NewSigh#readme",
   "dependencies": {
     "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
     "express": "^4.18.2",
     "helmet": "^7.0.0",
+    "mongodb": "^6.1.0",
+    "mongoose": "^7.6.2",
     "nodemon": "^3.0.1"
   }
 }

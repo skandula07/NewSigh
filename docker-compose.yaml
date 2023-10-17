@@ -1,7 +1,7 @@
 services:
   app:
-    build:
-    container-name: example-container
+    build: .
+    container_name: example-container
     command: npm start
     ports: 
       - 3000:3000
